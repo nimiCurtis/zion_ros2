@@ -18,8 +18,13 @@ This package lets you use the software packages of Zion wearable system which in
   - All of ZED camera features and data as it described in - [zed-ros2-wrapper](https://github.com/stereolabs/zed-ros2-wrapper/tree/master/images)
   - Single stair detection & modeling
 
-This system is a prototype ... **TBD**
+This prototype system serves as a wearable sensor and processing unit designed for exoskeleton systems used in the rehabilitation of paraplegics. Until now, it has been equipped with a stereo camera that enables the acquisition of spatial information from the surroundings. This information is then used to interpret and discern the user's intentions, allowing the robot to respond and operate accordingly.
+
+TODO: 
+Images of the system
 <!-- ## Known issues -->
+
+---
 
 ## Installation
 
@@ -30,8 +35,13 @@ This system is a prototype ... **TBD**
 - [CUDA](https://developer.nvidia.com/cuda-downloads) dependency
 - [ROS2 Foxy](https://docs.ros.org/en/foxy/Installation/Linux-Install-Debians.html)
 - [zed-ros2-wrapper (v4.0.6 release or newer)](https://github.com/stereolabs/zed-ros2-wrapper) 
+- [TensorRT (optional)](https://docs.nvidia.com/deeplearning/tensorrt/install-guide/index.html)
 
 ### Dependencies
+
+TODO: requierments dir
+
+
 
 ### Build the package
 
@@ -58,6 +68,8 @@ To update the repository to the latest release you must use the following comman
 $ git checkout master # if you are not on the main branch  
 $ git pull --recurse-submodules # update recursively all the submodules
 ```
+
+---
 
 ## Get Started
 
