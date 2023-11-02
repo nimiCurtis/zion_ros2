@@ -22,7 +22,6 @@ This prototype system serves as a wearable sensor and processing unit designed f
 
 TODO: 
 Images of the system
-<!-- ## Known issues -->
 
 ---
 
@@ -30,17 +29,12 @@ Images of the system
 
 ### Prerequisites
 
-- [Ubuntu 20.04 (Focal Fossa)](https://releases.ubuntu.com/focal/)
+- [Ubuntu 20.04 (Focal Fossa)](https://releases.ubuntu.com/focal/) / [JetPack](https://docs.nvidia.com/sdk-manager/install-with-sdkm-jetson/index.html)>=5.1
 - [ZED SDK](https://www.stereolabs.com/developers/release/latest/) >= v4.0.6 
-- [CUDA](https://developer.nvidia.com/cuda-downloads) dependency
+- [CUDA](https://developer.nvidia.com/cuda-downloads)
 - [ROS2 Foxy](https://docs.ros.org/en/foxy/Installation/Linux-Install-Debians.html)
 - [zed-ros2-wrapper (v4.0.6 release or newer)](https://github.com/stereolabs/zed-ros2-wrapper) 
 - [TensorRT (optional)](https://docs.nvidia.com/deeplearning/tensorrt/install-guide/index.html)
-
-### Dependencies
-
-TODO: requierments dir
-
 
 
 ### Build the package
@@ -68,6 +62,23 @@ To update the repository to the latest release you must use the following comman
 $ git checkout master # if you are not on the main branch  
 $ git pull --recurse-submodules # update recursively all the submodules
 ```
+
+### Python Dependencies
+
+For python dependencies installation, open a terminal and use the ```install.sh``` file.
+
+**For PC platform:**
+```bash
+$ ./install.sh 
+```
+
+**For Jetson Orin platform:**
+```bash
+$ ./install.sh jet
+```
+
+
+<!-- ## Known issues -->
 
 ---
 
