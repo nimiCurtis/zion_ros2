@@ -20,9 +20,6 @@ This package lets you use the software packages of Zion wearable system which in
 
 This prototype system serves as a wearable sensor and processing unit designed for exoskeleton systems used in the rehabilitation of paraplegics. Until now, it has been equipped with a stereo camera that enables the acquisition of spatial information from the surroundings. This information is then used to interpret and discern the user's intentions, allowing the robot to respond and operate accordingly.
 
-TODO: 
-Images of the system
-
 ---
 
 ## Installation
@@ -115,3 +112,9 @@ $ ros2 launch stair_modeling stair_modeling_view.launch.py
 
 For more information please enter the [stair_modeling](https://github.com/nimiCurtis/stair_modeling) package
 
+---
+
+### TODO: 
+- [ ] Images of the system
+- [ ] Images from rviz 
+- [ ] readme for every package ? 
