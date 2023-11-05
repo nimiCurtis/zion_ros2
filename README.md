@@ -117,4 +117,3 @@ For more information please enter the [stair_modeling](https://github.com/nimiCu
 ### TODO: 
 - [ ] Images of the system
 - [ ] Images from rviz 
-- [ ] readme for every package ? 
