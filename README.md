@@ -20,27 +20,18 @@ This package lets you use the software packages of Zion wearable system which in
 
 This prototype system serves as a wearable sensor and processing unit designed for exoskeleton systems used in the rehabilitation of paraplegics. Until now, it has been equipped with a stereo camera that enables the acquisition of spatial information from the surroundings. This information is then used to interpret and discern the user's intentions, allowing the robot to respond and operate accordingly.
 
-TODO: 
-Images of the system
-<!-- ## Known issues -->
-
 ---
 
 ## Installation
 
 ### Prerequisites
 
-- [Ubuntu 20.04 (Focal Fossa)](https://releases.ubuntu.com/focal/)
+- [Ubuntu 20.04 (Focal Fossa)](https://releases.ubuntu.com/focal/) / [JetPack](https://docs.nvidia.com/sdk-manager/install-with-sdkm-jetson/index.html)>=5.1
 - [ZED SDK](https://www.stereolabs.com/developers/release/latest/) >= v4.0.6 
-- [CUDA](https://developer.nvidia.com/cuda-downloads) dependency
+- [CUDA](https://developer.nvidia.com/cuda-downloads)
 - [ROS2 Foxy](https://docs.ros.org/en/foxy/Installation/Linux-Install-Debians.html)
 - [zed-ros2-wrapper (v4.0.6 release or newer)](https://github.com/stereolabs/zed-ros2-wrapper) 
 - [TensorRT (optional)](https://docs.nvidia.com/deeplearning/tensorrt/install-guide/index.html)
-
-### Dependencies
-
-TODO: requierments dir
-
 
 
 ### Build the package
@@ -68,6 +59,23 @@ To update the repository to the latest release you must use the following comman
 $ git checkout master # if you are not on the main branch  
 $ git pull --recurse-submodules # update recursively all the submodules
 ```
+
+### Python Dependencies
+
+For python dependencies installation, open a terminal and use the ```install.sh``` file.
+
+**For PC platform:**
+```bash
+$ ./install.sh 
+```
+
+**For Jetson Orin platform:**
+```bash
+$ ./install.sh jet
+```
+
+
+<!-- ## Known issues -->
 
 ---
 
@@ -104,3 +112,9 @@ $ ros2 launch stair_modeling stair_modeling_view.launch.py
 
 For more information please enter the [stair_modeling](https://github.com/nimiCurtis/stair_modeling) package
 
+---
+
+### TODO: 
+- [ ] Images of the system
+- [ ] Images from rviz 
+- [ ] readme for every package ? 

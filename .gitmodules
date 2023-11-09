@@ -1,12 +1,19 @@
 [submodule "zion_msgs"]
 	path = zion_msgs
-	url = git@github.com:nimiCurtis/zion_msgs.git
+	#url = git@github.com:nimiCurtis/zion_msgs.git
+	url = https://github.com/nimiCurtis/zion_msgs.git
+
 [submodule "zion_zed_ros2_interface"]
 	path = zion_zed_ros2_interface
-	url = git@github.com:nimiCurtis/zion_zed_ros2_interface.git
+	# url = git@github.com:nimiCurtis/zion_zed_ros2_interface.git
+	url = https://github.com/nimiCurtis/zion_zed_ros2_interface.git
+
 [submodule "zion_components"]
 	path = zion_components
-	url = git@github.com:nimiCurtis/zion_components.git
+	# url = git@github.com:nimiCurtis/zion_components.git
+	url = https://github.com/nimiCurtis/zion_components.git
+
 [submodule "zion_perception"]
 	path = zion_perception
-	url = git@github.com:nimiCurtis/zion_perception.git
+	# url = git@github.com:nimiCurtis/zion_perception.git
+	url = https://github.com/nimiCurtis/zion_perception.git
